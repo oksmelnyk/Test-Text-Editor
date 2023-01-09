@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.styleEditor {
+  height: 130px;
+  background-color: darkgray;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.textEditor {
+  height: 130px;
+  background-color: darkgray;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.iconsStyle {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  align-self: center;
+}
+
+.iconsText {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  align-self: center;
+}
+
+.btn-outline-secondary {
+  background-color: white;
+}
+
+.colors-list, .image-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.colors-list .color-card, .image-list .image-card {
+  width: 95px;
+  height: 90px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.size-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.circle-list {
+  list-style-type: circle;
+}
+
+.disc-list {
+  list-style-type: disc;
+}
+
+.square-list {
+  list-style-type: square;
+}
